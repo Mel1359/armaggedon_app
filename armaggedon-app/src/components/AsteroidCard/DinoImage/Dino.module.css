@@ -1,0 +1,11 @@
+.imageCont{
+    position: absolute;
+    top: 153px;
+    left: 16px;
+}
+
+
+.image{
+    width: 56px;
+    height: 48px;
+}

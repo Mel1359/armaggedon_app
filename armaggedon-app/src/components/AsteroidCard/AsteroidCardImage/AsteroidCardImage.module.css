@@ -1,0 +1,13 @@
+.imageCont{
+    display: flex;
+    width: 35%;
+    justify-content: center;
+}
+
+.image{
+    position: relative;
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+}

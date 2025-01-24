@@ -1,0 +1,58 @@
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.label {
+    margin: 0px;
+    position: absolute;
+    width: 299px;
+    height: 48px;
+    top: 37px;
+    left: 206px;
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.linkCont{
+    position: absolute;
+    display: flex;
+    gap: 24px;
+    top: 53px;
+    left: 906px;
+    width: 217px;
+    height: 20px;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration-line: underline;
+}
+
+.subLabel {
+    position: absolute;
+    width: 414px;
+    height: 40px;
+    top: 93px;
+    left: 206px;
+    font-family: Helvetica, sans-serif;
+}
+
+.rectangle {
+    position: absolute;
+    top: 157px;
+    left: 206px;
+    width: 920px;
+    height: 1px;
+    background: #000000;
+}
+
+

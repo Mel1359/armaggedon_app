@@ -1,0 +1,46 @@
+.showDangerousOnly{
+    position: absolute;
+    width: 220px;
+    height: 20px;
+    top: 184px;
+    left: 203px;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+
+}
+
+.distanceMode{
+    position: absolute;
+    width: 419px;
+    height: 20px;
+    top: 184px;
+    left: 748px;
+    font-family: Helvetica, sans-serif;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.distanceChooser{
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    /*font-weight: 700;*/
+    line-height: 20px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.checkBox{
+    height: 18px;
+    width: 18px;
+}

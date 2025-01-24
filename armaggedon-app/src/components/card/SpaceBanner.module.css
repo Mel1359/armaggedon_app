@@ -1,0 +1,15 @@
+.imageCont {
+    position: absolute;
+    display: flex;
+    width: 920px;
+    height: 200px;
+    top: 228px;
+    left: 206px;
+    right: 154px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.image{
+
+}
