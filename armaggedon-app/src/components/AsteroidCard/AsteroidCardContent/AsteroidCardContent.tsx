@@ -1,6 +1,19 @@
 import styles from "./Content.module.css";
+import {useContext} from "react";
+import {AsteroidsContext} from "../../asteroids-context/AsteroidsContext";
 
-export const AsteroidCardContent = (props) =>{
+type AsteroidCardContentProps = {
+    name: string,
+    date: string,
+    distance: {
+        kilometers: number;
+        lunar: number;
+    },
+    size: number,
+    distanceMode: boolean,
+}
+
+export const AsteroidCardContent = (props: AsteroidCardContentProps) =>{
     const {name, date, distance, size, distanceMode} = props;
 
     return (<div>

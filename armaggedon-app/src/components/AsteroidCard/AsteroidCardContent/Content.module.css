@@ -17,7 +17,7 @@
 
 .contentWrapper{
     position: absolute;
-    width: 289px;
+    width: 330px;
     height: 88px;
     top: 72px;
     left: 347px;
@@ -46,8 +46,6 @@
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-
-
 }
 
 .contentSize{

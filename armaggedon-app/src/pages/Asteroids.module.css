@@ -31,9 +31,9 @@
     cursor: pointer;
     text-decoration: underline;
     padding: 0;
+    margin: 0 4px;
     font-family: Helvetica, sans-serif;
     font-size: 16px;
-    /*font-weight: 700;*/
     line-height: 20px;
     text-align: right;
     text-underline-position: from-font;
@@ -43,4 +43,9 @@
 .checkBox{
     height: 18px;
     width: 18px;
+}
+
+.active{
+    font-weight: 700;
+    text-decoration: none;
 }
