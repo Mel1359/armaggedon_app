@@ -1,4 +1,4 @@
-.container{
+.container {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -22,7 +22,7 @@
     text-decoration-skip-ink: none;
 }
 
-.linkCont{
+.linkCont {
     position: absolute;
     display: flex;
     gap: 24px;
@@ -55,4 +55,42 @@
     background: #000000;
 }
 
+.apiKeyBlock {
+    position: absolute;
+    top: 85px;
+    left: 906px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+}
 
+.apiKeyButton {
+    padding: 8px 16px;
+    background-color: #186dd6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.apiKeyButton:hover {
+    background-color: #104d91;
+}
+
+.apiKeyInput {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}

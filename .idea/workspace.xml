@@ -5,24 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbc73944-0b86-4e18-baf8-5cceebe32942" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/armaggedon-app/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armaggedon-app/.prettierrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armaggedon-app/global.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/AsteroidCardContent/AsteroidCardContentContainer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armaggedon-app/src/components/asteroids-context/AsteroidsContext.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armaggedon-app/src/pages/Asteroids.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armaggedon-app/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armaggedon-app/src/utils/getUserKey.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armaggedon-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armaggedon-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/AsteroidCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/AsteroidCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/AsteroidCardAction/AsteroidCardAction.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/AsteroidCardAction/AsteroidCardAction.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/AsteroidCardContent/AsteroidCardContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/AsteroidCardContent/AsteroidCardContent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/AsteroidCardContent/Content.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/AsteroidCardContent/Content.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/Card.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/Card.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/pages/Asteroids.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/pages/Asteroids.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/pages/Asteroids.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/AsteroidCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/AsteroidCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/AsteroidCardAction/Action.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/AsteroidCardAction/Action.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/AsteroidCardAction/AsteroidCardAction.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/AsteroidCardAction/AsteroidCardAction.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/components/asteroids-context/AsteroidsContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/components/asteroids-context/AsteroidsContext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/components/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/components/header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/components/header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/pages/Asteroids.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/pages/Asteroids.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/pages/Destruction.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/pages/Destruction.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,25 +33,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/mel/WebstormProjects/web_2/armaggedon-app/src/components/AsteroidCard",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\mel\\WebstormProjects\\web_2\\armaggedon-app\\node_modules\\prettier",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "C:\\Users\\mel\\WebstormProjects\\web_2\\armaggedon-app\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mel/WebstormProjects/web_2/armaggedon-app/src/components/AsteroidCard&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\mel\\WebstormProjects\\web_2\\armaggedon-app\\node_modules\\prettier&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\mel\\WebstormProjects\\web_2\\armaggedon-app\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mel\WebstormProjects\web_2\armaggedon-app\src\components\AsteroidCard" />
@@ -89,7 +81,8 @@
       <workItem from="1737560331832" duration="13740000" />
       <workItem from="1737646682258" duration="9349000" />
       <workItem from="1737737370276" duration="14433000" />
-      <workItem from="1737826577110" duration="11743000" />
+      <workItem from="1737826577110" duration="13655000" />
+      <workItem from="1737887494285" duration="5228000" />
     </task>
     <servers />
   </component>

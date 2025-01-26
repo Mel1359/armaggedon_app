@@ -4,6 +4,7 @@ import styles from './Asteroids.module.css';
 import {use, useContext, useEffect, useState} from "react";
 import {SpaceImage} from "../components/card/SpaceBanner";
 import {AsteroidsContext} from "../components/asteroids-context/AsteroidsContext";
+import {getUserKey} from "../utils/getUserKey";
 
 export const Asteroids = ()=>{
 
@@ -23,7 +24,7 @@ export const Asteroids = ()=>{
 
     useEffect(()=> {
         try{
-            const result = fetch("https://api.nasa.gov/neo/rest/v1/feed?api_key=DEMO_KEY").then((res) => {
+            const result = fetch(`https://api.nasa.gov/neo/rest/v1/feed?api_key=${getUserKey()}`).then((res) => {
                 return res.json()
             }).then((response) => {
                 let rawAsteroids = []

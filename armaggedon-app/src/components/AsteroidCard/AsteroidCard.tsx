@@ -4,8 +4,11 @@ import { AsteroidCardImage } from './AsteroidCardImage/AsteroidCardImage'
 import { DinoImage } from './DinoImage/DinoImage'
 import styles from './Card.module.css'
 import {AsteroidCardContentContainer} from "./AsteroidCardContent/AsteroidCardContentContainer";
+import {useContext} from "react";
+import {AsteroidsContext} from "../asteroids-context/AsteroidsContext";
 
 type AsteroidCardProps = {
+    id: string
     name: string
     date: string
     distance: {
@@ -18,6 +21,9 @@ type AsteroidCardProps = {
 
 export const AsteroidCard = (props: AsteroidCardProps) => {
     const { name, date, distance, size, isDangerous} = props
+    const {addAsteroid, destroyment} = useContext(AsteroidsContext)
+
+    const isDisabled = destroyment.some((item)=> item.id === props.id)
 
     return (
         <div className={styles.card}>
@@ -34,7 +40,9 @@ export const AsteroidCard = (props: AsteroidCardProps) => {
                 size={size}
                 date={date}
             />
-            <AsteroidCardAction isDangerous={isDangerous} />
+            <AsteroidCardAction isDangerous={isDangerous}
+                                isDisabled={isDisabled}
+                                onClick={()=> addAsteroid(props)} />
         </div>
     )
 }
