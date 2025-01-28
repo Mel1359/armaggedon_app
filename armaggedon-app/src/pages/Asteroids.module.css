@@ -1,35 +1,36 @@
-.body{
-    position: absolute;
-    height: 100%;
+.body {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.filtersWrapper {
+    font-family: helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28%;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
-    align-content: center;
+    max-width: 920px;
+    margin: 0 auto 15px;
+    padding: 0 16px;
 }
 
-.showDangerousOnly{
-    position: absolute;
-    width: 220px;
-    height: 20px;
-    top: 184px;
-    left: 203px;
-    font-size: 16px;
-    font-family: Helvetica, sans-serif;
-    font-weight: 400;
-
+.showDangerousOnly {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1 1 220px;
 }
 
-.distanceMode{
-    position: absolute;
-    width: 419px;
-    height: 20px;
-    top: 184px;
-    left: 748px;
-    font-family: Helvetica, sans-serif;
-    line-height: 20px;
-    font-size: 16px;
-    font-weight: 400;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+.distanceMode {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex: 2 1 300px;
+    flex-wrap: wrap;
 }
 
 .distanceChooser{

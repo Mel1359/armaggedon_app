@@ -2,10 +2,9 @@
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
     max-width: 920px;
     height: 200px;
-    margin: 228px auto;
+    margin: auto;
     border-radius: 10px;
     border: 1px solid black;
 }

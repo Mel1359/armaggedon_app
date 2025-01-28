@@ -1,12 +1,15 @@
 .card {
     position: relative;
     display: flex;
-    margin-top: 16px;
-    top: 444px;
-    left: 206px;
-    right: 154px;
-    width: 920px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    max-width: 920px;
     height: 200px;
+    margin: 0 auto;
+    padding: 32px 0 48px;
+    gap: 32px;
 }
 
 .regularCard{

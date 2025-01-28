@@ -56,35 +56,42 @@ export const Asteroids = ()=>{
     return (
         <div className={styles.body}>
             <Header/>
+            <div className={styles.filtersWrapper}>
+                <label className={styles.showDangerousOnly}>
+                    <input
+                        type="checkbox"
+                        className={styles.checkBox}
+                        checked={onlyDangerous}
+                        onChange={() => setOnlyDangerous(!onlyDangerous)}
+                    />
+                    Показать только опасные
+                </label>
+
+                {/* Переключатель единиц измерения */}
+                <div className={styles.distanceMode}>
+                    <span>Расстояние</span>
+                    <button
+                        onClick={() => setDistanceMode(true)}
+                        className={`${styles.distanceChooser} ${distanceMode ? styles.active : ''}`}
+                    >
+                        в километрах
+                    </button>
+                    <span>,</span>
+                    <button
+                        onClick={() => setDistanceMode(false)}
+                        className={`${styles.distanceChooser} ${!distanceMode ? styles.active : ''}`}
+                    >
+                        в дистанциях до луны
+                    </button>
+                </div>
+            </div>
             <SpaceImage/>
-            <div className={styles.showDangerousOnly}>
-                <input className={styles.checkBox} type="checkbox" checked={onlyDangerous}
-                       onChange={() => setOnlyDangerous(!onlyDangerous)}/>Показать только опасные
+            <div style={{margin: "-16px"}}>
+                {asteroids
+                    .filter(it => !onlyDangerous || it.isDangerous)
+                    .map(item => <AsteroidCard key={item.id} {...item}/>)}
             </div>
-            <div className={styles.distanceMode}>
-                Расстояние
-                <button
-                    onClick={() => setDistanceMode(true)}
-                    className={`${styles.distanceChooser} ${distanceMode ? styles.active : ''}`}
-                >
-                    в километрах
-                </button>
-                ,
-                <button
-                    onClick={() => setDistanceMode(false)}
-                    className={`${styles.distanceChooser} ${!distanceMode ? styles.active : ''}`}
-                >
-                    в дистанциях до луны
-                </button>
-            </div>
-            <div style={{margin: "-16px"}}></div>
-            {onlyDangerous
-                ? asteroids.filter((it) => it.isDangerous).map((item) =>
-                    <AsteroidCard key={item.id} {...item}/>
-                )
-                : asteroids.map((item) =>
-                    <AsteroidCard key={item.id} {...item}/>
-                )}
+
             <Bottom/>
         </div>
     );
