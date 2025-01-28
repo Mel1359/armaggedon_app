@@ -1,15 +1,11 @@
 .imageCont {
-    position: absolute;
+    position: relative;
     display: flex;
-    width: 920px;
+    justify-content: center;
+    align-items: center;
+    max-width: 920px;
     height: 200px;
-    top: 228px;
-    left: 206px;
-    right: 154px;
+    margin: 228px auto;
     border-radius: 10px;
     border: 1px solid black;
-}
-
-.image{
-
 }

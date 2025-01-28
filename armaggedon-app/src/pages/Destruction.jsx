@@ -2,9 +2,9 @@ import {Header} from "../components/header/Header";
 import {AsteroidsContext} from "../components/asteroids-context/AsteroidsContext";
 import {useContext} from "react";
 import {AsteroidCard} from "../components/AsteroidCard/AsteroidCard";
+import {Bottom} from "../components/Bottom";
 
-export const Destruction = ()=>{
-
+export const Destruction = () => {
     const {destroyment} = useContext(AsteroidsContext);
 
     return (
@@ -15,6 +15,7 @@ export const Destruction = ()=>{
                     <AsteroidCard key={item.id} {...item} />
                 ))}
             </div>
+            <Bottom/>
         </div>
     );
 };

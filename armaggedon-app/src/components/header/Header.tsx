@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
 import { getUserKey } from "../../utils/getUserKey";
-import { useState } from "react";
+import {memo, useState} from "react";
 
-export const Header = () => {
+export const Header = memo(() => {
     const [inputOpened, setInputOpened] = useState(false);
 
     return (
         <div className={styles.container}>
             <div>
-                <h1 className={styles.label}>ARMAGGEDON V</h1>
+                <div className={styles.label}>ARMAGGEDON V</div>
                 <div className={styles.subLabel}>
                     Сервис мониторинга и уничтожения астероидов, опасно подлетающих к Земле.
                 </div>
@@ -45,4 +45,6 @@ export const Header = () => {
             <div className={styles.rectangle}></div>
         </div>
     );
-};
+})
+
+Header.displayName = "Header";

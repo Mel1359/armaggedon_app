@@ -1,10 +1,11 @@
 import {Header} from "../components/header/Header";
 import {AsteroidCard} from "../components/AsteroidCard/AsteroidCard";
 import styles from './Asteroids.module.css';
-import {use, useContext, useEffect, useState} from "react";
+import {useContext, useEffect, useState} from "react";
 import {SpaceImage} from "../components/card/SpaceBanner";
 import {AsteroidsContext} from "../components/asteroids-context/AsteroidsContext";
 import {getUserKey} from "../utils/getUserKey";
+import {Bottom} from "../components/Bottom";
 
 export const Asteroids = ()=>{
 
@@ -53,7 +54,7 @@ export const Asteroids = ()=>{
     const {onlyDangerous, setOnlyDangerous, setDistanceMode, distanceMode} = useContext(AsteroidsContext)!;
 
     return (
-        <div>
+        <div className={styles.body}>
             <Header/>
             <SpaceImage/>
             <div className={styles.showDangerousOnly}>
@@ -84,6 +85,7 @@ export const Asteroids = ()=>{
                 : asteroids.map((item) =>
                     <AsteroidCard key={item.id} {...item}/>
                 )}
+            <Bottom/>
         </div>
     );
 };

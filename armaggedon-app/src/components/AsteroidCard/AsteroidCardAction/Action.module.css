@@ -1,4 +1,5 @@
 .actionGrade{
+    display: flex;
     position: absolute;
     text-align: center;
     width: 80px;
