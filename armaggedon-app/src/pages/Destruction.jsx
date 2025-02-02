@@ -10,7 +10,7 @@ export const Destruction = () => {
     return (
         <div>
             <Header/>
-            <div style={{ marginTop: '-270px' }}>
+            <div>
                 {destroyment.map((item) => (
                     <AsteroidCard key={item.id} {...item} />
                 ))}

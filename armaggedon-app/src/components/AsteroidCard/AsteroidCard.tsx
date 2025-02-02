@@ -1,5 +1,4 @@
 import { AsteroidCardAction } from './AsteroidCardAction/AsteroidCardAction'
-import { AsteroidCardContent } from './AsteroidCardContent/AsteroidCardContent'
 import { AsteroidCardImage } from './AsteroidCardImage/AsteroidCardImage'
 import { DinoImage } from './DinoImage/DinoImage'
 import styles from './Card.module.css'
@@ -26,13 +25,12 @@ export const AsteroidCard = (props: AsteroidCardProps) => {
     const isDisabled = destroyment.some((item)=> item.id === props.id)
 
     return (
-        <div className={styles.card}>
-            <div
-                className={isDangerous ? styles.cardRed : styles.regularCard}
-            ></div>
+        <div
+            className={`${styles.card} ${isDangerous ? styles.cardRed : styles.regularCard}`}
+        >
             <div className={styles.content}>
-                <AsteroidCardImage />
-                <DinoImage />
+                <AsteroidCardImage size={size} />
+                <DinoImage/>
             </div>
             <AsteroidCardContentContainer
                 name={name}
@@ -40,9 +38,11 @@ export const AsteroidCard = (props: AsteroidCardProps) => {
                 size={size}
                 date={date}
             />
-            <AsteroidCardAction isDangerous={isDangerous}
-                                isDisabled={isDisabled}
-                                onClick={()=> addAsteroid(props)} />
+            <AsteroidCardAction
+                isDangerous={isDangerous}
+                isDisabled={isDisabled}
+                onClick={() => addAsteroid(props)}
+            />
         </div>
     )
 }

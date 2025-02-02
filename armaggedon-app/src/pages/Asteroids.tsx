@@ -86,12 +86,11 @@ export const Asteroids = ()=>{
                 </div>
             </div>
             <SpaceImage/>
-            <div style={{margin: "-16px"}}>
+            <div>
                 {asteroids
                     .filter(it => !onlyDangerous || it.isDangerous)
                     .map(item => <AsteroidCard key={item.id} {...item}/>)}
             </div>
-
             <Bottom/>
         </div>
     );

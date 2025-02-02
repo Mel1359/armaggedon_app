@@ -6,12 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="fbc73944-0b86-4e18-baf8-5cceebe32942" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armaggedon-app/global.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/global.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/AsteroidCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/AsteroidCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/AsteroidCardAction/Action.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/AsteroidCardAction/Action.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/AsteroidCardContent/Content.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/AsteroidCardContent/Content.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/AsteroidCardImage/AsteroidCardImage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/AsteroidCardImage/AsteroidCardImage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/AsteroidCardImage/AsteroidCardImage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/AsteroidCardImage/AsteroidCardImage.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/Card.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/Card.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/DinoImage/Dino.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/components/AsteroidCard/DinoImage/Dino.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/components/Bottom.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/components/Bottom.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/armaggedon-app/src/components/card/SpaceBanner.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/components/card/SpaceBanner.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/components/header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/components/header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/components/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/components/header/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/armaggedon-app/src/pages/Asteroids.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/pages/Asteroids.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/armaggedon-app/src/pages/Asteroids.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/pages/Asteroids.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/pages/Destruction.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/pages/Destruction.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,11 +89,26 @@
       <workItem from="1737826577110" duration="13655000" />
       <workItem from="1737887494285" duration="17577000" />
       <workItem from="1738003753951" duration="3459000" />
-      <workItem from="1738073493676" duration="7284000" />
+      <workItem from="1738073493676" duration="7499000" />
+      <workItem from="1738159862975" duration="3835000" />
+      <workItem from="1738340900661" duration="3677000" />
+      <workItem from="1738505253888" duration="14794000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/armaggedon-app/src/pages/Asteroids.tsx</url>
+          <line>28</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

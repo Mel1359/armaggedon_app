@@ -43,3 +43,21 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
+
+@media (max-width: 1100px) {
+    .actionGrade,
+    .action {
+        position: absolute;
+        left: auto;
+    }
+
+    .actionGrade {
+        top: 265px;
+        left: 104px;
+    }
+
+    .action {
+        top: 321px;
+        left: 65px;
+    }
+}

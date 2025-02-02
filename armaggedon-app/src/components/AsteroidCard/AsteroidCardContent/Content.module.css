@@ -1,6 +1,6 @@
 .contentName{
     position: absolute;
-    width: 290px;
+    width: 380px;
     height: 32px;
     top: 24px;
     left: 347px;
@@ -17,16 +17,14 @@
 
 .contentWrapper{
     position: absolute;
-    width: 330px;
+    width: 380px;
     height: 88px;
     top: 72px;
     left: 347px;
-    gap: 8px;
 }
 
 .contentDate{
     position: relative;
-    margin-top: 8px;
     font-family: Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -38,7 +36,6 @@
 
 .contentDistance{
     position: relative;
-    margin-top: 8px;
     font-family: Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -50,7 +47,6 @@
 
 .contentSize{
     position: relative;
-    margin-top: 8px;
     font-family: Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -58,4 +54,32 @@
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+}
+
+@media (max-width: 1100px) {
+    .contentName{
+        position: absolute;
+        left: 20px;
+        top: 120px;
+    }
+    .contentWrapper {
+        position: absolute;
+        left: 20px;
+        top: 165px;
+        width: 250px; /* Автоматическая ширина */
+        height: 100px; /* Автоматическая высота */
+        margin: 0; /* Центрирование по горизонтали */
+        text-align: center; /* Выравнивание текста по центру */
+
+    }
+
+    .contentWrapper {
+
+    }
+
+    .contentDate,
+    .contentDistance,
+    .contentSize {
+
+    }
 }
