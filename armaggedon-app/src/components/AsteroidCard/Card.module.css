@@ -42,4 +42,14 @@
         aspect-ratio: 0.74 / 1;
         border-radius: 8px;
     }
+
+    .cardRed {
+        background-size: 100% 41%;
+        background-repeat: no-repeat;
+    }
+
+    .regularCard {
+        background-size: 100% 41%;
+        background-repeat: no-repeat;
+    }
 }
