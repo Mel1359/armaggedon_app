@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/armaggedon_app/static/css/main.1dd8e605.css",
+    "main.js": "/armaggedon_app/static/js/main.80e2a7bb.js",
+    "static/media/space.png": "/armaggedon_app/static/media/space.209427888f57b5eb7c26.png",
+    "static/media/asteroid.png": "/armaggedon_app/static/media/asteroid.67b0c58be67884fe363a.png",
+    "index.html": "/armaggedon_app/index.html",
+    "main.1dd8e605.css.map": "/armaggedon_app/static/css/main.1dd8e605.css.map",
+    "main.80e2a7bb.js.map": "/armaggedon_app/static/js/main.80e2a7bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1dd8e605.css",
+    "static/js/main.80e2a7bb.js"
+  ]
+}
