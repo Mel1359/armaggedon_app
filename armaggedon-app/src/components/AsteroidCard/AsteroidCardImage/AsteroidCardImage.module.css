@@ -24,11 +24,11 @@
     }
 
     .image {
-        position: absolute; /* Абсолютное позиционирование */
-        bottom: 0; /* Привязка к нижнему краю */
-        left: 30%; /* Центрирование по горизонтали */
-        transform: translateX(-50%); /* Корректировка для точного центрирования */
-        max-height: 100%; /* Ограничиваем высоту */
-        max-width: 100%; /* Ограничиваем ширину */
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+        transform: translateX(-50%);
+        max-height: 100%;
+        max-width: 100%;
     }
 }

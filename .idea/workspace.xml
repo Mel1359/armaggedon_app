@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbc73944-0b86-4e18-baf8-5cceebe32942" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/armaggedon-app/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/armaggedon-app/src/components/header/Header.unit.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/armaggedon-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/armaggedon-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/components/Bottom.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/components/Bottom/Bottom.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/components/Bottom.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/components/Bottom/Bottom.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/components/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/components/header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/pages/Asteroids.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/pages/Asteroids.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/pages/Destruction.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/pages/Destruction.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/utils/getUserKey.ts" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/utils/getUserKey.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/armaggedon-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/armaggedon-app/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +117,7 @@
       <workItem from="1738340900661" duration="3677000" />
       <workItem from="1738505253888" duration="14909000" />
       <workItem from="1738604062666" duration="774000" />
-      <workItem from="1738607862543" duration="4750000" />
+      <workItem from="1738607862543" duration="5058000" />
     </task>
     <servers />
   </component>

@@ -66,20 +66,10 @@
         position: absolute;
         left: 20px;
         top: 165px;
-        width: 250px; /* Автоматическая ширина */
-        height: 100px; /* Автоматическая высота */
-        margin: 0; /* Центрирование по горизонтали */
-        text-align: center; /* Выравнивание текста по центру */
-
-    }
-
-    .contentWrapper {
-
-    }
-
-    .contentDate,
-    .contentDistance,
-    .contentSize {
+        width: 250px;
+        height: 100px;
+        margin: 0;
+        text-align: center;
 
     }
 }
