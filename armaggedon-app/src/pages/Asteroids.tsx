@@ -5,7 +5,7 @@ import {useContext, useEffect, useState} from "react";
 import {SpaceImage} from "../components/card/SpaceBanner";
 import {AsteroidsContext} from "../components/asteroids-context/AsteroidsContext";
 import {getUserKey} from "../utils/getUserKey";
-import {Bottom} from "../components/Bottom";
+import {Bottom} from "../components/Bottom/Bottom";
 
 export const Asteroids = ()=>{
 
